@@ -4,7 +4,7 @@ This repository contains a Dockerfile that allows you to build a docker image ba
 
 To build the docker image, use the `build.sh` script. To verify that gdb with Python is working, use the `build-debug.sh` script to build a docker image. 
 
-To run a container, execute the `run.sh` script. If you need to enter the container, use the `exec.sh` script. 
+To run a container, execute the `run.sh` script.
 
 Inside the container, run `gdb python 1` to enter gdb interactive mode. You can verify that everything is working by running `py-bt` and `py-list`.
 
