@@ -1,0 +1,1 @@
+docker build -f Dockerfile-debug . -t xkpydebug:v0

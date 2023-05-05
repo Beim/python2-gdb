@@ -1,0 +1,1 @@
+docker build . -t xkpython:2.7-debug
