@@ -1,6 +1,6 @@
 # python2-gdb
 
-This repository contains a Dockerfile that allows you to build a docker image based on `debian:buster-slim` with Python 2.7, pip 20.0.2, and gdb installed. 
+This repository contains a Dockerfile that allows you to build a docker image based on `debian:buster-slim` with Python 2.7 with debug info, pip 20.0.2, and gdb installed. 
 
 To build the docker image, use the `build.sh` script. To verify that gdb with Python is working, use the `build-debug.sh` script to build a docker image. 
 
